@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rD9pErdfIDVpFfPVyIjZ8Jrkp9LW57I9epPh+Qs1iYw=",
+  "Hash": "VBwDS+6OjDIul3AdaefWSYYDyAhNuylmeyWRg+w7ZFs=",
   "Source": "frontend",
   "BasePath": "/",
   "Mode": "Root",
@@ -6900,6 +6900,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/marjanjabinpishe/Desktop/straoi_random/frontend/obj/Debug/net7.0/scopedcss/projectbundle/frontend.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/marjanjabinpishe/Desktop/straoi_random/frontend/wwwroot/appsettings.json",
+      "SourceId": "frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/marjanjabinpishe/Desktop/straoi_random/frontend/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "appsettings.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "settings",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/appsettings.json"
     },
     {
       "Identity": "/Users/marjanjabinpishe/Desktop/straoi_random/frontend/wwwroot/css/app.css",
