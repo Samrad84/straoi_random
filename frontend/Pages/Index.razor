@@ -23,7 +23,7 @@ else
     <div class="container px-5 py-4 mx-auto">
         <div class="text-center mb-20">
             <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Strapi Blazor Blog App</h1>
-            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">British History - From the Anglo-Saxon era to present day Britain.</p>
+            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Classic Italian Recipes</p>
             <div class="flex mt-6 justify-center">
                 <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
             </div>
@@ -34,17 +34,19 @@ else
                     <div class="xl:w-1/4 md:w-1/2 p-4">
                         <div class="bg-gray-100 p-6 rounded-lg">
                   
-                            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">@post.rubrik</h2>
-                            <NavLink href="@($"post/{post.Id.ToString()}")">
-                                <a class="text-indigo-500 inline-flex items-center">
-                                    Read More
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                    </svg>
-                                </a>
-                            </NavLink>
-                            @post.reseptBeskriv
+                            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">@post.rubrik   </h2>
+
+
+                        @post.bild
+                         
+                        
+
+                             
+                               <p>@post.reseptBeskriv</p>
+
+     
+                        
+                            
                         </div>
                     </div>
                 }
@@ -87,10 +89,10 @@ else
         public string rubrik { get; set; }
         public string reseptBeskriv { get; set; }
         //public string Author { get; set; }
-        public Image bild { get; set; }
+        public Bild bild { get; set; }
     }
 
-    public class Image
+    public class Bild
     {
         public string Url { get; set; }
     }
